@@ -1,0 +1,14 @@
+.name {
+    font-size: 300%;
+    margin-bottom: 0;
+}
+
+.for {
+    position: relative;
+    margin-top: -1em;
+}
+
+.align-top {
+    margin-top: 10px;
+    margin-right: 10px;
+}
