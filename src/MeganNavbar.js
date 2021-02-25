@@ -16,29 +16,25 @@ function MeganNavbar(props) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand as={Link} to="/">
-        <Container>
-          <Row xs={2} className="text-right">
-            <Col>
-              <img
-                alt="at least logo"
-                src={miniLogo}
-                width="70"
-                height="70"
-                className="d-inline-block align-top"
-              />{' '}
-            </Col>
-            <Col>
-              <span className="name">Megan O'Bryan</span>
-            </Col>
-            <Col>
-              <small className="for">For Developer</small>
-            </Col>
-          </Row>
-        </Container>
+        <img
+          alt="at least logo"
+          src={miniLogo}
+          width="70"
+          height="70"
+          className="d-inline-block align-top"
+        />{' '}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="mr-auto">
+          <Nav.Link as={Link} to="/">
+            <div className="row">
+              <span className="name col-12">Megan O'Bryan</span>
+              <small className="for">For WebDev</small>
+            </div>
+          </Nav.Link>
+        </Nav>
+        <Nav>
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/Interests">Interests</Nav.Link>
           <Nav.Link as={Link} to="/Skills">Skills</Nav.Link>
