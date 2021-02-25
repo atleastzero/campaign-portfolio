@@ -1,0 +1,22 @@
+.box {
+    width: 90%;
+    text-align: center;
+}
+
+p {
+    font-size: 200%;
+}
+
+#largeTextBox {
+    height: 200px;
+    width: 350px;
+}
+
+#emailInput {
+    width: 240px;
+    margin-right: 10px;
+}
+
+#submitEmail {
+    width: 100px;
+}

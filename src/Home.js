@@ -1,13 +1,14 @@
 import React from "react"
 
 import MeganNavbar from "./MeganNavbar"
+import TopBanner from "./TopBanner"
 
 function Home() {
   return (
     <div>
       <MeganNavbar currentPage="Home" />
-      {/* <TopBanner />
-      <BigQuote />
+      <TopBanner />
+      {/* <BigQuote />
       <ButtonSection />
       <Issues />
       <NewsSection />
